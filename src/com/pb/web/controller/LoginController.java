@@ -44,6 +44,7 @@ public class LoginController extends AbstractController {
 	protected ModelAndView handleRequestInternal(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 		// TODO Auto-generated method stub
+		System.out.println(411);
 		String cardNo=request.getParameter("cardNo");
 		String password=request.getParameter("password");
 //		Account account =getAccount(cardNo,password);
