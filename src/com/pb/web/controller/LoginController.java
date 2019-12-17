@@ -47,6 +47,7 @@ public class LoginController extends AbstractController {
 		System.out.println(411111);
 		String cardNo=request.getParameter("cardNo");
 		String password=request.getParameter("password");
+		System.out.println(41111144);
 //		Account account =getAccount(cardNo,password);
 		Map<String ,Object> model=new HashMap<String,Object>();
 //		if(account !=null){
