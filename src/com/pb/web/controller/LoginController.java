@@ -48,6 +48,7 @@ public class LoginController extends AbstractController {
 		String cardNo=request.getParameter("cardNo");
 		String password=request.getParameter("password");
 		System.out.println("修改master的日志为0000");
+		System.out.println("主干又开发了甚多代码");
 //		Account account =getAccount(cardNo,password);
 		Map<String ,Object> model=new HashMap<String,Object>();
 //		if(account !=null){
